@@ -1,10 +1,15 @@
-import com.cg.util.LinkedList;
+import java.util.Collection;
+import java.util.List;
+
+import com.cg.util.*;
+
 
 public class Entry {
 	public static void main(String[] args) {
 
 		LinkedList list1 = new LinkedList();
-
+		Collection c;
+		List l;
 		list1.add(10);
 		list1.add(20);
 		list1.add(30);
